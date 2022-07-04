@@ -12,7 +12,11 @@ h1 {
     font-size: 50px;
 }
 
-section {
+h2 {
+    font-size: 40px;
+}
+
+.new-section-lasterjonno {
     display: flex;
     margin-bottom: 150px;
 }
@@ -48,4 +52,23 @@ section {
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 3%;
+}
+
+.pasapasi {
+    display: flex;
+}
+
+.item {
+    width: 40%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 20%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.ex-area {
+    background-image: url(images/hi.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
