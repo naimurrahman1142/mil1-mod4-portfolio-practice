@@ -14,11 +14,13 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .first-section {
     width: 50%;
-    padding-left: 2%;
+    padding-left: 3%;
+
 }
 
 .first-section img {
@@ -34,4 +36,16 @@ section {
     font-weight: 700;
     color: white;
 
+}
+
+.top-banner {
+    background-image: url(images/kiss.png);
+    background-repeat: no-repeat;
+}
+
+.services {
+    background-image: url(images/55a794baf9ecdaaa68bc60e80c5523e8--background-designs-psd.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 3%;
 }
