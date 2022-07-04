@@ -37,8 +37,7 @@ h3 {
 
 .contact-button {
     text-decoration-line: none;
-    background-color: orangered;
-    background-image: linear-gradient(orange tomato);
+    background-image: linear-gradient(orange, tomato);
     padding: 10px 40px;
     border-radius: 10px;
     font-weight: 700;
@@ -62,12 +61,6 @@ h3 {
     background-image: url(images/hi.png);
     background-repeat: no-repeat;
     background-position: right;
-    margin-bottom: 50px;
-}
-
-.pasapasi {
-    display: flex;
-
 }
 
 .item {
@@ -80,7 +73,16 @@ h3 {
 
 }
 
+#new1 {
+    border-left: 7px solid tomato;
+}
+
+#new2 {
+    border-left: 7px solid blue;
+}
+
 footer {
     text-align: center;
+    margin-bottom: 40px;
 
 }
